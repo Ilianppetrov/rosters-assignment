@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node ./server.js",
     "dev": "nodemon --delay 500ms ./server.js",
     "create_database": "node ./db/scripts/create_database.js"
   },

@@ -34,8 +34,6 @@ const createTeam = async (req, res) => {
       return;
     }
 
-    throw new Error("test");
-
     await db.teams.create({
       name,
       userEmail: req.user.email,
